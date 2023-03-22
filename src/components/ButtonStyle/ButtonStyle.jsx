@@ -12,12 +12,12 @@ const Button = styled.div`
   line-height: 1;
   color: white;
   background-color: ${(props) => props.backgroundColor};
-  padding: 9px;
+  padding: 20px;
 `
 const ButtonStyle = ({ label, backgroundColor, ...props }) => {
   return (
     <Button {...props} backgroundColor={backgroundColor}>
-      {label} + Hola
+      {label}
     </Button>
   )
 }
