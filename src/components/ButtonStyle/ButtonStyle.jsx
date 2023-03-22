@@ -17,7 +17,7 @@ const Button = styled.div`
 const ButtonStyle = ({ label, backgroundColor, ...props }) => {
   return (
     <Button {...props} backgroundColor={backgroundColor}>
-      {label}
+      {label} + Hola
     </Button>
   )
 }
